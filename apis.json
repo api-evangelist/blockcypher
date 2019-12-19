@@ -1,0 +1,53 @@
+{
+    "name": "BlockCypher",
+    "description": "Build blockchain applications easily with our web APIs and callbacks. High throughputs, linear scaling, low-latency. Over 99.99% uptime with no single point of failure.",
+    "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/26412-www-blockcypher-com.jpg",
+    "tags": [
+        "api provider",
+        "blockchain",
+        "have api"
+    ],
+    "created": "2019-12-19",
+    "modified": "2019-12-19",
+    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/blockcypher\/master\/apis.json",
+    "specificationVersion": "0.14",
+    "apis": [
+        {
+            "name": "BlockCypher",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/26412-www-blockcypher-com.jpg",
+            "humanURL": "https:\/\/www.blockcypher.com",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/blockcypher-postman-collection.json"
+                }
+            ]
+        }
+    ],
+    "include": [],
+    "x-common": [
+        {
+            "type": "Crunchbase",
+            "url": "https:\/\/crunchbase.com\/organization\/blockcypher"
+        },
+        {
+            "type": "Email",
+            "url": "contact@blockcypher.com"
+        },
+        {
+            "type": "Email",
+            "url": "support@blockcypher.com"
+        },
+        {
+            "type": "Twitter",
+            "url": "https:\/\/twitter.com\/BlockCypher"
+        },
+        {
+            "type": "Website",
+            "url": "https:\/\/www.blockcypher.com"
+        }
+    ]
+}
