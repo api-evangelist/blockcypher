@@ -1,0 +1,14 @@
+generated: '2026-10-22'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://www.blockcypher.com/getting-started.html
+sources:
+- https://www.blockcypher.com/getting-started.html
+description: BlockCypher uses an API token passed as a query parameter.
+schemes:
+- type: apiKey
+  name: token
+  evidence: curl http://api.blockcypher.com/v1/btc/main?token=$TOKEN
+  location: query
+  how_to_obtain: Create an account on the developer portal and copy‑paste the token.
+docs: https://www.blockcypher.com/getting-started.html

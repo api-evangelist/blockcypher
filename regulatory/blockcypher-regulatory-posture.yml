@@ -1,0 +1,18 @@
+generated: '2026-10-22'
+method: derived
+source: https://www.blockcypher.com/privacy-policy.html
+signals:
+  - name: data_retention
+    evidence:
+      source: https://www.blockcypher.com/privacy-policy.html
+      http_status: 200
+      fetched: true
+      quote: "We store your personal information for as long as we need it to provide you the Services, to serve the purpose(s) for which your personal information was processed, or as necessary to comply with our legal obligations, resolve disputes, or enforce our agreements, to the extent permitted by law. While retention requirements can vary by country, we generally apply the retention periods noted below."
+      note: Retention policy describing storage duration based on purpose and legal obligations.
+  - name: data_subject_request
+    evidence:
+      source: https://www.blockcypher.com/privacy-policy.html
+      http_status: 200
+      fetched: true
+      quote: "If you are a California resident, you have the right to request information from us regarding the manner in which we share certain categories of your personal information with third parties for the third parties’ direct marketing purposes."
+      note: Provides right for California residents to request information about data sharing.

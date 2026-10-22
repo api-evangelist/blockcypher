@@ -1,0 +1,51 @@
+generated: '2026-10-22'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://www.blockcypher.com/pricing.html
+sources:
+- https://www.blockcypher.com/pricing.html
+name: BlockCypher pricing
+audience: developer-api
+pricing_basis: per-seat
+plans:
+- name: Free
+  price_text: $ 0 /mo
+  price: 0
+  billing_period: monthly
+  features:
+  - 1000 Requests Per Day
+  - 100 Requests Per Hour
+  - 3 Requests Per Second
+  - 100 WebHooks
+  - 0 Payment Forwards
+  - 100 WebHooks/WebSockets Per Hour
+  - 10 Confidence Lookups Per Hour
+  - No Email Support
+- name: Prototype
+  price_text: $ 150 /mo
+  price: 150
+  billing_period: monthly
+  features:
+  - 5000 Requests Per Day
+  - 500 Requests Per Hour
+  - 5 Requests Per Second
+  - 1000 WebHooks
+  - 1000 Payment Forwards
+  - 500 WebHooks/WebSockets Per Hour
+  - 30 Confidence Lookups Per Hour
+  - Basic Email Support
+- name: Enterprise
+  price_text: Contact Us
+  features:
+  - 250k+ Requests Per Day
+  - 15k+ Requests Per Hour
+  - 25+ Requests Per Second
+  - 48k+ WebHooks
+  - 48k+ Payment Forwards
+  - 15k+ WebHooks/WebSockets Per Hour
+  - 14k+ Confidence Lookups Per Hour
+  - Priority Email Support
+  limits:
+  - name: pricing_basis
+    limit_text: negotiated
+docs: https://www.blockcypher.com/pricing.html

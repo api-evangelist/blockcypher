@@ -1,0 +1,18 @@
+generated: '2026-10-22'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://www.blockcypher.com/privacy-policy.html
+sources:
+- https://www.blockcypher.com/privacy-policy.html
+standards:
+- id: gdpr
+  conforms: true
+  evidence: 'Designated Countries: For all purposes listed above, pursuant to the EU General Data Protection Regulation (“GDPR”) or any equivalent
+    legislation (collectively “Data Protection Laws”), BlockCypher.com processes the personal information of Users and Customers located in the
+    European Economic Area (“EEA”), United Kingdom and Switzerland'
+- id: gdpr
+  conforms: true
+  evidence: We rely on legal transfer mechanisms such as Standard Contractual Clauses or we work with U.S. based third parties that are certified
+    under the EU-U.S. and Swiss-U.S. Privacy Shield Framework.
+docs: https://www.blockcypher.com/privacy-policy.html
+note: 8 extracted row(s) were dropped because their quote was not on the page.
